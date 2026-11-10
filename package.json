@@ -1,0 +1,20 @@
+{
+  "name": "automated-testing-epam",
+  "version": "1.0.0",
+  "description": "automated testing course project for EPAM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EkaterinaBorodich/automated-testing-epam.git"
+  },
+  "keywords": ["automated-testing"],
+  "author": "Ekaterina Borodich",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/EkaterinaBorodich/automated-testing-epam/issues"
+  },
+  "homepage": "https://github.com/EkaterinaBorodich/automated-testing-epam#readme"
+}
