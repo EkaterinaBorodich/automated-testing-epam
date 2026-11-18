@@ -1,12 +1,9 @@
+# Dependencies
+node_modules/
+
 # Logs
 logs
 *.log
-
-# Dependency directories
-node_modules/
-
-# Dependency directories
-node_modules/
 
 # Optional npm cache directory
 .npm
@@ -16,7 +13,12 @@ node_modules/
 .env.*
 !.env.example
 
+# Test reports (mochawesome)
+mochawesome-report/
+
+# Code coverage (c8)
+coverage/
+
 # Stores Visual Studio Code versions used for testing Visual Studio Code extensions
-.vscode-test
 .vscode/
 .idea/
