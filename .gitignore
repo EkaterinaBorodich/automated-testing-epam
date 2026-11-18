@@ -1,28 +1,9 @@
+# Dependencies
+node_modules/
+
 # Logs
 logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
-
-# Dependency directories
-node_modules/
-jspm_packages/
-
-# Coverage directory used by tools like istanbul
-coverage
-*.lcov
-
-# Compiled binary addons (https://nodejs.org/api/addons.html)
-build/Release
-
-# Dependency directories
-node_modules/
-jspm_packages/
-
-# Snowpack dependency directory (https://snowpack.dev/)
-web_modules/
 
 # Optional npm cache directory
 .npm
@@ -32,14 +13,12 @@ web_modules/
 .env.*
 !.env.example
 
+# Test reports (mochawesome)
+mochawesome-report/
+
+# Code coverage (c8)
+coverage/
+
 # Stores Visual Studio Code versions used for testing Visual Studio Code extensions
-.vscode-test
 .vscode/
 .idea/
-# pnpm
-.pnpm-store
-
-# Vite files
-vite.config.js.timestamp-*
-vite.config.ts.timestamp-*
-.vite/
