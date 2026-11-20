@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 // Importing the 'expect' function from the 'chai' library to perform assertions
 const { expect } = require('chai');
 

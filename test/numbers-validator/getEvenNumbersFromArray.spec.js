@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 const { expect } = require('chai');
 const NumbersValidator = require('../../app/numbers-validator');
 
