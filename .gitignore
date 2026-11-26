@@ -22,3 +22,8 @@ coverage/
 # Stores Visual Studio Code versions used for testing Visual Studio Code extensions
 .vscode/
 .idea/
+
+# WebdriverIO / Allure
+allure-results/
+allure-report/
+screenshots/
