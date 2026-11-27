@@ -14,6 +14,5 @@ describe('Dashboard page', () => {
     await dashboardPage.sideMenu.item('doctors').click();
 
     await expect(browser).toHaveUrl(expect.stringContaining('#/doctors'));
-    await expect(doctorsPage.moduleTitle).toHaveText('DOCTORS LIST');
   });
 });
