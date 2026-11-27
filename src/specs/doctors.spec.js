@@ -1,4 +1,4 @@
-const { doctorsPage } = require('../po');
+const { doctorsPage } = require('../po/pages');
 
 describe('Doctors page', () => {
   beforeEach(async () => {
