@@ -6,7 +6,7 @@ class SideMenuComponent extends BaseComponent {
   }
 
   item(name) {
-    return this.rootEl.$(`[routerlink="/${name}"]`);
+    return this.rootEl.$(`[routerlink="/${name.toLowerCase()}"]`);
   }
 }
 
