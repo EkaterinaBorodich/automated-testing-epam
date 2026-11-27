@@ -8,7 +8,7 @@ class BasePage {
   }
 
   async open() {
-    await browser.url(`/showcase/angular/appointmentplanner/#/${this.url}`);
+    await browser.url(`#/${this.url}`);
   }
 }
 
